@@ -134,7 +134,7 @@ Documenting code is recommended for many reasons. What follows are some best pra
 
 - At a bare minimum, modules, types, and their members should have a plain `///` comment or `<summary>` tag. This will show in an autocompletion tooltip window in F# editing tools.
 
-- Documentation text should be written using complete sentences ending with full stops.
+- Documentation text should be written using complete sentences ending with full stops (periods).
 
 ## See also
 
