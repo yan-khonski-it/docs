@@ -6,7 +6,7 @@ ms.date: 08/15/2020
 ---
 # Interfaces (F#)
 
-*Interfaces* specify sets of related members that other classes implement.
+*Interfaces* specify sets of related members that other classes an reckrds can implement.
 
 ## Syntax
 
