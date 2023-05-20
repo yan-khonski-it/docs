@@ -12,7 +12,7 @@ One of the primary design objectives of Orleans is to simplify the complexities 
 
 ## The "Actor Model"
 
-Orleans is based on the "actor model". The actor model originated in the early 1970s and is now a core component of Orleans. The actor model is a programming model in which each _actor_ is a lightweight, concurrent, immutable object that encapsulates a piece of state and corresponding behavior. Actors communicate exclusively with each other using asynchronous messages. Orleans notably invented the _Virtual Actor_ abstraction, wherein actors exist perpetually.
+Orleans is based on the "actor model". The actor model originated in the early 1970s and is now a core component of Orleans. The actor model is a programming model in which each _actor_ is a lightweight, concurrent object that encapsulates a piece of state and corresponding behavior. Actors communicate exclusively with each other using asynchronous messages. Orleans notably invented the _Virtual Actor_ abstraction, wherein actors exist perpetually.
 
 > [!NOTE]
 > Actors are purely logical entities that _always_ exist, virtually. An actor cannot be explicitly created nor destroyed, and its virtual existence is unaffected by the failure of a server that executes it. Since actors always exist, they are always addressable.
